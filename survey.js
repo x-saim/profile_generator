@@ -5,11 +5,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
 const survey = function() {
   const qArray = ["What's an activity you like doing? ","What do you listen to while doing that?  ","Which meal is your favourite (eg: dinner, brunch, etc.)  ","What's your favourite thing to eat for that meal?  ","Which sport is your absolute favourite?  ","What is your superpower? In a few words, tell us what you are amazing at!  "];
   const ansArray = [];
-
 
   rl.question(qArray[0], (answer) => {
     console.log(`Thank you for your valuable feedback: ${answer}`);
@@ -44,8 +42,7 @@ const survey = function() {
       });
     });
   });
-  
-        
+          
 };
 
 survey();
