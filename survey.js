@@ -36,7 +36,7 @@ const survey = function() {
               ansArray.push(answer);
 
               rl.close();
-              console.log(`Thanks for answering the survey. Here is your answer summary: You like to listen to ${ansArray[1]} while ${ansArray[0]}, devouring ${ansArray[3]} for ${ansArray[2]}, prefer ${ansArray[4]} over any other sport, and your superpower is ${ansArray[5]}.`);
+              console.log(`Thanks for answering the survey. Here is your answer summary:\nYou like to listen to ${ansArray[1]} while ${ansArray[0]}, devouring ${ansArray[3]} for ${ansArray[2]}, prefer ${ansArray[4]} over any other sport, and your superpower is ${ansArray[5]}.`);
                            
             });
           });
